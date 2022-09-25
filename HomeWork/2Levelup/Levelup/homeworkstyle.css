@@ -114,6 +114,7 @@ label{font-size: x-large;}
         max-width: 960px;
         order:0;
         margin: 5%;
+        size: 900px;
     }
     .tabletask th{font-size: medium;}
     .tabletask td{font-size: medium;}
