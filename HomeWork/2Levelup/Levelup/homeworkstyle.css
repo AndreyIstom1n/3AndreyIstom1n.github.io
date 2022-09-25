@@ -109,9 +109,9 @@ p{
     font-weight: bold;
 }
 label{font-size: x-large;}
-@media (max-width:1000px) {
+@media (max-width:960px) {
     .tabletask{
-        max-width: 1000px;
+        max-width: 960px;
         order:0;
         margin: 5%;
     }
@@ -120,7 +120,7 @@ label{font-size: x-large;}
     .menu{
         flex-direction:row;
         justify-content: space-around;
-        max-width:1000px;
+        max-width:960px;
         font-size: medium;
     }
    img{
@@ -135,16 +135,14 @@ label{font-size: x-large;}
     }
     h1{text-align: left;
         font-size: 50px;}
-    .content{max-width: 1000px;}
-    .main{max-width:1000px;}
+    .content{max-width: 960px;}
+    .main{max-width:960px;}
     .logo{
         width: 125px;
         height: 125px;
         float: left;
     }
-    menu a{
-        display: flex;
-        justify-content: space-around;
-        font-size: medium;
-      }
+    nav{
+        max-width: 960px;
+    }
 }
