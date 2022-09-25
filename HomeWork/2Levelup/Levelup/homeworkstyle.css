@@ -96,6 +96,7 @@ form{
     background-color: bisque;
     color: black;
     border-color: darkkhaki;
+    margin: 5%;
 }
 input {font-size: large;}
 option{font-size: large;}
