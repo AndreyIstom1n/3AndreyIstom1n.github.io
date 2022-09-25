@@ -113,6 +113,7 @@ label{font-size: x-large;}
     .tabletask{
         max-width: 960px;
         order:0;
+        margin: auto;
     }
     .tabletask th{font-size: medium;}
     .tabletask td{font-size: medium;}
