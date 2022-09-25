@@ -1,0 +1,134 @@
+.main{
+    text-align:center;
+    color:black;
+    background-color:darkkhaki;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -8px;
+    max-width: auto;
+    
+}
+.logo{
+    float:left;
+    width: 250px;
+    height: 250px;
+    margin-right: 500px;
+    margin-left: 10px;
+}
+header{
+    letter-spacing: 1px;
+    text-align: left;
+    font-size: 50px;
+    color:chocolate;
+    font-family:Broadway;   
+}
+.backtext{
+    background-color: bisque;
+    padding: 2px;   
+    margin-top:-20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: coral;
+    word-spacing: 70px;
+    
+}
+.menu a{    
+    color:aquamarine;
+    font-size: 80px;
+    font-family: Arial;
+}
+.links
+{   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:bisque;
+    font-size: 20px;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    font-size: 120%;
+}
+h2{font-size: 50px;
+    color: black;
+    font-family:Calibri;
+    background-color:bisque;
+}
+img{
+   max-width: 1600px;
+   height: auto;
+}
+.tabletask{
+    margin: auto;
+    background-color: bisque;
+
+}
+.tabletask caption{
+    font-size: 50px;
+    text-align: center;
+    color:navy;
+    margin-bottom: 30px;
+    background-color: bisque;
+}
+.tabletask th{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:cornflowerblue ;
+}
+.tabletask td{
+    font-size: x-large;
+    padding: 10px 20px;
+    background-color:honeydew ;
+}
+form{
+    display: flex;
+    flex-flow: column;
+    font-size: x-large;
+    background-color: bisque;
+    color: black;
+    border-color: darkkhaki;
+}
+input {font-size: large;}
+option{font-size: large;}
+p{
+    text-align: left;
+    font-size:xx-large;
+    margin-bottom: 0%;
+    margin-left: 20px;
+    padding-bottom: 3px;
+    font-style: italic;
+    font-weight: bold;
+}
+label{font-size: x-large;}
+@media (max-width:960px) {
+    .tabletask{
+        max-width: 960px;
+        order:0;
+    }
+    .tabletask th{font-size: medium;}
+    .tabletask td{font-size: medium;}
+    .menu{
+        flex-direction: row;
+        max-width:960px;
+    }
+   
+
+    h1{text-align: left;
+        font-size: 50px;}
+    .content{max-width: 960px;}
+    .main{max-width:960px;}
+    .logo{
+        width: 500px;
+        height: 500px;
+        float: left;
+    }
+}
