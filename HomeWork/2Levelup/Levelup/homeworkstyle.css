@@ -128,7 +128,10 @@ label{font-size: x-large;}
     max-height: 350px;
     }
     caption{
-        font-size:medium;
+        font-size:small;
+        flex-direction: row;
+        justify-content: space-around;
+        
     }
     h1{text-align: left;
         font-size: 50px;}
