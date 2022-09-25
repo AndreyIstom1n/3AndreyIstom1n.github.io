@@ -117,11 +117,18 @@ label{font-size: x-large;}
     .tabletask th{font-size: medium;}
     .tabletask td{font-size: medium;}
     .menu{
-        flex-direction: row;
+        flex-direction:row;
+        justify-content: space-around;
         max-width:960px;
+        font-size: medium;
     }
-   
-
+   img{
+    max-width: 400px;
+    max-height: 400px;
+    }
+    caption{
+        font-size:medium;
+    }
     h1{text-align: left;
         font-size: 50px;}
     .content{max-width: 960px;}
