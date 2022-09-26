@@ -1,4 +1,4 @@
-.main{
+  .main{
     text-align:center;
     color:black;
     background-color:darkkhaki;
@@ -42,7 +42,7 @@ header{
 }
 .menu a{    
     color:aquamarine;
-    font-size: 80px;
+    font-size: medium;
     font-family: Arial;
 }
 .links
@@ -73,7 +73,7 @@ img{
 
 }
 .tabletask caption{
-    font-size: 50px;
+    font-size: small;
     text-align: center;
     color:navy;
     margin-bottom: 30px;
