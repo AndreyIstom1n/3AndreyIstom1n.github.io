@@ -1,12 +1,11 @@
 .main{
     text-align:center;
     color:black;
-    background-color:darkkhaki;
-    margin-bottom: -10px;
-    margin-left: -10px;
-    margin-right: -8px;
     max-width: auto;
-    
+    overflow-x:hidden;
+}
+body{
+    background-color: darkkhaki;
 }
 .logo{
     float:left;
@@ -18,7 +17,7 @@
 header{
     letter-spacing: 1px;
     text-align: left;
-    font-size: 50px;
+    font-size: 30px;
     color:chocolate;
     font-family:Broadway;   
 }
@@ -35,6 +34,7 @@ header{
 }
 .menu{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     background-color: coral;
     word-spacing: 70px;
@@ -63,12 +63,7 @@ h2{font-size: 50px;
     font-family:Calibri;
     background-color:bisque;
 }
-img{
-   max-width: 1600px;
-   height: auto;
-}
 .tabletask{
-    margin: auto;
     background-color: bisque;
 
 }
@@ -86,9 +81,19 @@ img{
 }
 .tabletask td{
     font-size: medium;
-    padding: 10px 20px;
+
     background-color:honeydew ;
 }
+
+.flex-order {
+    display:flex;
+    flex-direction: column;
+}
+
+#form {
+    order:-1;
+}
+
 form{
     display: flex;
     flex-flow: column;
@@ -110,41 +115,34 @@ p{
     font-weight: bold;
 }
 label{font-size: x-large;}
-@media (max-width:960px) {
-    .tabletask{
-        max-width: 960px;
+@media (min-width:960px) {
+
+    #form {
         order:0;
-        margin: 5%;
-    }
-    .tabletask th{font-size: medium;}
-    .tabletask td{font-size: medium;}
-    .menu{
-        flex-direction:row;
-        justify-content: space-around;
-        max-width:960px;
-        font-size: medium;
-    }
-   img{
-    max-width: 350px;
-    max-height: 350px;
     }
     caption{
-        font-size:small;
+        font-weight: bold;
+        font-size: 25px;
         flex-direction: row;
         justify-content: space-around;
         
     }
     h1{text-align: left;
         font-size: 50px;}
-    .content{max-width: 960px;}
-    .main{max-width:960px;}
+
+.backtext{
+    padding-top: 6%;
+    padding-bottom: 1%;    
+}
+
     .logo{
-        width: 125px;
-        height: 125px;
+        width: 250px;
+        height: 250px;
         float: left;
     }
     nav{
-        max-width: 960px;
+        max-width: auto;
+        font-size: large;
     }
 }
 

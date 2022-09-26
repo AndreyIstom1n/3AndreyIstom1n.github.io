@@ -47,8 +47,8 @@
         <li>Нажав <a href="#form">СЮДА</a>, Вы перейдете к заполнению Формы HTML</li>
         <li><a href="example/picture.jpg" id="picture"><img src="example/picture.jpg" alt="Кот"></a></li>
         <li><map name ="yandex">
-            <area shape="rect"coords="311,110,744,285"href="https://hd.kinopoisk.ru"alt="Прямоугольник">
-            <area shape="circle"coords="168,184,115"href="https://market.yandex.ru" alt="Круг">
+            <area shape="rect"coords="142,50,341,129"href="https://hd.kinopoisk.ru"alt="Прямоугольник">
+            <area shape="circle"coords="75,84,77"href="https://market.yandex.ru" alt="Круг">
             </map>
             <a id="map"><img src="example/figures.png"usemap="#yandex"alt="map"></a>
         <br /><em>(Треугольник не является круглой или прямоугольной фигурой, следовательно, не будет являться ссылкой-изображением)</em>
@@ -61,52 +61,48 @@
         <li><a href="inside/form.html">Сокращенная ссылка на внутреннюю страницу</a></li>
     </ol></a>
         </div>
-    
-        <table class="tabletask">
+        <div class="flex-order">
+         <table class="tabletask">
             <a id="table"><h2>Таблица</h2></a>
             <caption>Рейтинг медиаплатформ (2021 год)</caption>
             <tr>
                 <th>Соц.сеть</th>
                 <th>Место в топе (мир)</th>
-                <th>Место в топе (Россия)</th>
                 <th>Генеральный директор</th>
                 <th>Количество пользователей (млрд)</th>
             </tr>
             <tr>
                 <td>Facebook</td>
                 <td>1</td>
-                <td>6</td>
                 <td>Марк Цукерберг</td>
                 <td>2,74</td>
             </tr>
             <tr>
                 <td>Youtube</td>
-                <td colspan="2">2</td>
+                <td>2</td>
                 <td>Сюзан Воджицки</td>
                 <td>2,29</td>
             </tr>
             <tr>
                 <td>WhatsApp</td>
                 <td>3</td>
-                <td>4</td>
                 <td>Уилл Каткарт</td>
                 <td>2</td>
             </tr>
             <tr>
                 <td>Instagram</td>
                 <td>4</td>
-                <td>3</td>
                 <td>Кевин Систром</td>
                 <td>1,22</td>
             </tr>
             <tr>
                 <td>TikTok</td>
-                <td colspan="2">5</td>
+                <td>5</td>
                 <td>Шоу Зи Чу</td>
                 <td>0,681</td>
             </tr>
         </table>
-    <a id="form"></a>
+    <a id="form">
     <h2>Форма HTML</h2>
     <form action="/"
         method="POST">
@@ -157,7 +153,8 @@
             </label><br/><br/>
         <input type="submit"value="Отправить"/>
     </form>
-
+</a>
+    </div>
     <bottom>
         <a id="bottom"></a>
         <p>(с) Истомин Андрей 2022</p>
