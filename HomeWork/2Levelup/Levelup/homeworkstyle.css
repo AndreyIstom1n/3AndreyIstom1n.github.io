@@ -140,7 +140,7 @@ label{font-size: x-large;}
         height: 250px;
         float: left;
     }
-    nav{
+    nav{flex-direction: row;
         max-width: auto;
         font-size: large;
     }
