@@ -140,9 +140,10 @@ label{font-size: x-large;}
         height: 250px;
         float: left;
     }
-    nav{flex-direction: row;
+    nav{
         max-width: auto;
         font-size: large;
     }
+   .menu{flex-direction:row;}
 }
 
