@@ -144,6 +144,6 @@ label{font-size: x-large;}
         max-width: auto;
         font-size: large;
     }
-   menu{flex-direction:row;}
+   .menu{flex-direction:row;}
 }
 
